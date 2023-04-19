@@ -37,14 +37,14 @@
 }
 .list-task,
 .list-completed {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item, .edit-mode, title {
-  list-style:none;
+  list-style: none;
 }
 .list-item__input, .checkbox, .btn{
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -141,14 +141,14 @@ title,
 
 /* Edit Task */
 .list-item__input {
-  display:none
+  display: none
 }
 
 .edit-mode__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode__label {
-  display:none;
+  display: none;
 }
