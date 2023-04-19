@@ -32,9 +32,10 @@
   display: inline-block;
   flex-grow: 1;
 }
-.block-add__task {
-  display: flex;
-}
+/*.block-add__input {
+  display: inline-block;
+  width: 500px;
+}*/
 .list-task,
 .list-completed {
   margin: 0;
@@ -63,7 +64,7 @@ title {
   color: #3a3a3a;
 }
 /* Heading */
-title,
+.title,
 .block-add__label {
   color: #333;
   font-weight: 700;
@@ -74,6 +75,7 @@ title,
   text-transform: uppercase;
 }
 .edit-mode__input,
+.block-add__input,
 .list-item__input{
   margin: 0;
   font-size: 18px;
@@ -97,7 +99,7 @@ title,
   margin: 0 0 20px;
 }
 .block-add__input {
-  width: 318px;
+  width: /*318px;*/ 410px;
 }
 
 /* Task list */
