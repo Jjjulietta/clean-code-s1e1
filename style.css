@@ -40,10 +40,14 @@
   margin: 0;
   padding: 0px;
 }
-.list-item, .edit-mode, title {
+.list-item,
+.edit-mode,
+title {
   list-style: none;
 }
-.list-item__input, .checkbox, .btn{
+.list-item__input,
+.checkbox,
+.btn{
   outline: none;
 }
 .btn {
@@ -107,7 +111,8 @@ title,
   justify-content: space-between;
   align-items: center;
 }
-.list-item, .edit-mode > * {
+.list-item,
+.edit-mode > * {
   vertical-align: middle;
 }
 
