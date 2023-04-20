@@ -9,6 +9,7 @@
   margin: 0 auto;
   display: block;
   text-align: right;
+  padding-bottom: 20px;
 }
 .header__img {
   width: 100%;
@@ -48,9 +49,13 @@ title {
 }
 .list-item__input,
 .checkbox,
+.btn-del,
+.btn-edit,
 .btn{
   outline: none;
 }
+.btn-del,
+.btn-edit,
 .btn {
   background: none;
   border: 0px;
@@ -60,7 +65,7 @@ title {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.btn:hover {
+.btn-del:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -88,7 +93,7 @@ title {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.edit-mode__input,
+.edit-mode__input:focus,
 .list-item__input:focus {
   color: #333;
 }
@@ -99,7 +104,7 @@ title {
   margin: 0 0 20px;
 }
 .block-add__input {
-  width: /*318px;*/ 410px;
+  width: /*318px;*/ 415px;
 }
 
 /* Task list */
@@ -122,6 +127,7 @@ title {
   margin: 0 10px;
 }
 .edit-mode__label,
+.list-completed__label,
 .list-item__label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -141,7 +147,7 @@ title {
 }
 
 /* Completed */
-.list-completed__item .list-item__label {
+.list-completed__label {
   text-decoration: line-through;
   color: #888;
 }
